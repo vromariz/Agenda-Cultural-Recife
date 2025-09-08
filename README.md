@@ -36,7 +36,7 @@ Seguem os prints do quadro com o backlog organizado por prioridade e status:
 )
 
 Link público para acessar o quadro no Trello:  
-🔗 [Acesse o Trello do projeto](https://trello.com/b/61145940fdb916032c722fbc/agenda-cultural-recife)
+🔗 [Acesse o Trello do projeto](https://github.com/vromariz/Agenda-Cultural-Recife/tree/main/images)
 
 ---
 
