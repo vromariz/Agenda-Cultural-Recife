@@ -11,7 +11,7 @@ Nosso objetivo é aproximar a população da cultura popular e independente, fac
 - *Scrum Master (SM):* Maria Eduarda Patriota 
 - *Desenvolvedor Backend:* Nome do integrante  
 - *Desenvolvedor Frontend:* Nome do integrante  
-- *Designer/Protótipo:* Nome do integrante  
+- *Designer/Protótipo:* Bernardo Salgues
 - *QA/Testes:* Vinicius Romariz  
 
 ---
