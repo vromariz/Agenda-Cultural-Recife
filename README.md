@@ -7,12 +7,12 @@ Nosso objetivo é aproximar a população da cultura popular e independente, fac
 
 ## Equipe
 
-
+- *Product Owner (PO):* Vinicius Romariz
 - *Scrum Master (SM):* Maria Eduarda Patriota 
-- *Desenvolvedor Backend:* Nome do integrante  
-- *Desenvolvedor Frontend:* Nome do integrante  
+- *Desenvolvedor Backend:* Fernando
+- *Desenvolvedor Frontend:* Arthur Melo
 - *Designer/Protótipo:* Bernardo Salgues
-- *QA/Testes:* Vinicius Romariz  
+- *QA/Testes:* Gabriel Reis
 
 ---
 
