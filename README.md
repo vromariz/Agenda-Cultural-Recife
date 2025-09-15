@@ -38,6 +38,9 @@ Link público para acessar o quadro no Trello:
 🔗 [Acesse o Trello do projeto](https://trello.com/b/nGkBsoYm/agenda-cultural-recife)
 
 ---
+## Diagrama de atividades 
+## Protótipos Lo-Fi (Figma)
+## Trello atualizado
 
 ## Próximos Passos
 
