@@ -7,12 +7,12 @@ Nosso objetivo é aproximar a população da cultura popular e independente, fac
 
 ## Equipe
 
-
+- *Product Owner (PO):* Vinicius Romariz
 - *Scrum Master (SM):* Maria Eduarda Patriota 
-- *Desenvolvedor Backend:* Nome do integrante  
-- *Desenvolvedor Frontend:* Nome do integrante  
-- *Designer/Protótipo:* Nome do integrante  
-- *QA/Testes:* Vinicius Romariz  
+- *Desenvolvedor Backend:* Fernando
+- *Desenvolvedor Frontend:* Arthur Melo
+- *Designer/Protótipo:* Bernardo Salgues
+- *QA/Testes:* Gabriel Reis
 
 ---
 
@@ -32,13 +32,15 @@ Utilizamos *Scrum*, criando Sprints de aproximadamente 2 semanas alinhadas às e
 
 Seguem os prints do quadro com o backlog organizado por prioridade e status:
 
-![Quadro Trello - Backlog completo](<img width="1146" height="449" alt="Captura de tela de 2025-09-08 16-21-45" src="https://github.com/user-attachments/assets/39649972-0432-40b1-908d-f432a499b0e1" />
-)
+![Quadro Trello - Backlog completo](https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-09-08%2016-21-45.png)
 
 Link público para acessar o quadro no Trello:  
-🔗 [Acesse o Trello do projeto](https://trello.com/b/61145940fdb916032c722fbc/agenda-cultural-recife)
+🔗 [Acesse o Trello do projeto](https://trello.com/b/nGkBsoYm/agenda-cultural-recife)
 
 ---
+## Diagrama de atividades 
+## Protótipos Lo-Fi (Figma)
+## Trello atualizado
 
 ## Próximos Passos
 
