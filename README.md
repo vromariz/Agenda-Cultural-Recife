@@ -56,7 +56,9 @@ Link público para acessar o quadro no Trello:
   
   <img width="912" height="912" alt="image" src="https://github.com/user-attachments/assets/29eb3c58-7b3e-4845-bcb5-f7cff1c9785b" />
 
-- 6 **Filtrar Eventos por Faixa de Preço**  
+- 6 **Filtrar Eventos por Faixa de Preço** 
+<img width="776" height="839" alt="image" src="https://github.com/user-attachments/assets/15d3f51b-91fc-4504-a895-14ec22bad5fb" />
+ 
 - 7 **Editar Evento**  
 - 8 **Favoritar Evento**  
 - 9 **Compartilhar Evento**  
