@@ -43,13 +43,15 @@ Link público para acessar o quadro no Trello:
 - <img width="714" height="771" alt="image" src="https://github.com/user-attachments/assets/95526343-1544-494d-b1ac-6aa19cb4af61" />
 
   
-- 2 **Cadastrar Evento**
-  <img width="594" height="812" alt="image" src="https://github.com/user-attachments/assets/b708eac0-bd6e-4518-84f5-193b937914b9" />
+- 2 **Cadastrar Evento**]
+- <img width="594" height="812" alt="image" src="https://github.com/user-attachments/assets/b708eac0-bd6e-4518-84f5-193b937914b9" />
+ 
 
 
 
 - 3 **Listar Eventos**
-<img width="1227" height="761" alt="image" src="https://github.com/user-attachments/assets/c37637a2-f5c5-4be4-b555-20472781c284" />
+- <img width="1227" height="761" alt="image" src="https://github.com/user-attachments/assets/c37637a2-f5c5-4be4-b555-20472781c284" />
+
 
 
 
@@ -57,11 +59,13 @@ Link público para acessar o quadro no Trello:
 - <img width="1204" height="697" alt="image" src="https://github.com/user-attachments/assets/6e36677a-a1f1-47ab-8a36-843c3b4eea9b" />
 
 - 5 **Filtrar Eventos por Bairro**
+- <img width="912" height="912" alt="image" src="https://github.com/user-attachments/assets/29eb3c58-7b3e-4845-bcb5-f7cff1c9785b" />
   
-  <img width="912" height="912" alt="image" src="https://github.com/user-attachments/assets/29eb3c58-7b3e-4845-bcb5-f7cff1c9785b" />
+  
 
-- 6 **Filtrar Eventos por Faixa de Preço** 
-<img width="776" height="839" alt="image" src="https://github.com/user-attachments/assets/15d3f51b-91fc-4504-a895-14ec22bad5fb" />
+- 6 **Filtrar Eventos por Faixa de Preço**
+- <img width="776" height="839" alt="image" src="https://github.com/user-attachments/assets/15d3f51b-91fc-4504-a895-14ec22bad5fb" />
+
  
 - 7 **Editar Evento**  
 - 8 **Favoritar Evento**  
