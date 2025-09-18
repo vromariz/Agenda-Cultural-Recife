@@ -48,7 +48,8 @@ Link público para acessar o quadro no Trello:
 
 
 - 3 **Listar Eventos**
-<img width="1224" height="816" alt="image" src="https://github.com/user-attachments/assets/02159f96-b17a-4515-a5c1-da36a52e095a" />
+<img width="1227" height="761" alt="image" src="https://github.com/user-attachments/assets/c37637a2-f5c5-4be4-b555-20472781c284" />
+
 
 
 - 4 **Visualizar Detalhes do Evento**  
