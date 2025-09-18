@@ -39,17 +39,17 @@ Link público para acessar o quadro no Trello:
 
 ---
 ## Diagrama de atividades 
-#1 **Cadastrar/Login no sistema**  
-#2 **Cadastrar Evento**  
-#3 **Listar Eventos**  
- #4 **Visualizar Detalhes do Evento**  
- #5 **Filtrar Eventos por Bairro**  
- #6 **Filtrar Eventos por Faixa de Preço**  
- #7 **Editar Evento**  
- #8 **Favoritar Evento**  
- #9 **Compartilhar Evento**  
+- 1 **Cadastrar/Login no sistema**  
+- 2 **Cadastrar Evento**  
+- 3 **Listar Eventos**  
+- 4 **Visualizar Detalhes do Evento**  
+- 5 **Filtrar Eventos por Bairro**  
+- 6 **Filtrar Eventos por Faixa de Preço**  
+- 7 **Editar Evento**  
+- 8 **Favoritar Evento**  
+- 9 **Compartilhar Evento**  
  <img width="937" height="1280" alt="image" src="https://github.com/user-attachments/assets/1d110ded-4d2c-49f3-8dab-72f98ad5f907" />
- #10 **Excluir Evento**
+- 10 **Excluir Evento**
 ## Protótipos Lo-Fi (Figma)
 ## Trello atualizado
 
