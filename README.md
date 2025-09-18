@@ -40,9 +40,11 @@ Link público para acessar o quadro no Trello:
 ---
 ## Diagrama de atividades 
 - 1 **Cadastrar/Login no sistema**
+  
   <img width="560" height="1201" alt="image" src="https://github.com/user-attachments/assets/16dfb3bd-de8a-47ba-9138-e5a4a422881f" />
 
 - 2 **Cadastrar Evento**
+  
   <img width="425" height="1036" alt="image" src="https://github.com/user-attachments/assets/764764f2-00b7-467f-a36a-27e00051ec17" />
 
 - 3 **Listar Eventos**
@@ -51,6 +53,7 @@ Link público para acessar o quadro no Trello:
 
 - 4 **Visualizar Detalhes do Evento**  
 - 5 **Filtrar Eventos por Bairro**
+  
   <img width="912" height="912" alt="image" src="https://github.com/user-attachments/assets/29eb3c58-7b3e-4845-bcb5-f7cff1c9785b" />
 
 - 6 **Filtrar Eventos por Faixa de Preço**  
