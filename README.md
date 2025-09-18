@@ -39,16 +39,24 @@ Link público para acessar o quadro no Trello:
 
 ---
 ## Diagrama de atividades 
-- 1 **Cadastrar/Login no sistema**  
-- 2 **Cadastrar Evento**  
-- 3 **Listar Eventos**  
+- 1 **Cadastrar/Login no sistema**
+  <img width="560" height="1201" alt="image" src="https://github.com/user-attachments/assets/16dfb3bd-de8a-47ba-9138-e5a4a422881f" />
+
+- 2 **Cadastrar Evento**
+  <img width="425" height="1036" alt="image" src="https://github.com/user-attachments/assets/764764f2-00b7-467f-a36a-27e00051ec17" />
+
+- 3 **Listar Eventos**
+<img width="1224" height="816" alt="image" src="https://github.com/user-attachments/assets/02159f96-b17a-4515-a5c1-da36a52e095a" />
+
+
 - 4 **Visualizar Detalhes do Evento**  
-- 5 **Filtrar Eventos por Bairro**  
+- 5 **Filtrar Eventos por Bairro**
+  <img width="912" height="912" alt="image" src="https://github.com/user-attachments/assets/29eb3c58-7b3e-4845-bcb5-f7cff1c9785b" />
+
 - 6 **Filtrar Eventos por Faixa de Preço**  
 - 7 **Editar Evento**  
 - 8 **Favoritar Evento**  
 - 9 **Compartilhar Evento**  
- <img width="937" height="1280" alt="image" src="https://github.com/user-attachments/assets/1d110ded-4d2c-49f3-8dab-72f98ad5f907" />
 
 -  10 **Excluir Evento**
   
