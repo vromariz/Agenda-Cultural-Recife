@@ -40,6 +40,8 @@ Link público para acessar o quadro no Trello:
 ---
 ## Diagrama de atividades 
 - 1 **Cadastrar/Login no sistema**
+- <img width="714" height="771" alt="image" src="https://github.com/user-attachments/assets/95526343-1544-494d-b1ac-6aa19cb4af61" />
+
   
 - 2 **Cadastrar Evento**
   
