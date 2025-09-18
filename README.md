@@ -52,7 +52,9 @@ Link público para acessar o quadro no Trello:
 
 
 
-- 4 **Visualizar Detalhes do Evento**  
+- 4 **Visualizar Detalhes do Evento**
+- <img width="1204" height="697" alt="image" src="https://github.com/user-attachments/assets/6e36677a-a1f1-47ab-8a36-843c3b4eea9b" />
+
 - 5 **Filtrar Eventos por Bairro**
   
   <img width="912" height="912" alt="image" src="https://github.com/user-attachments/assets/29eb3c58-7b3e-4845-bcb5-f7cff1c9785b" />
