@@ -78,7 +78,8 @@ Link público para acessar o quadro no Trello:
 
 
 -  10 **Excluir Evento**
--  <img width="622" height="842" alt="image" src="https://github.com/user-attachments/assets/5fb1a186-bf6b-437d-86ff-450fd9483d20" />
+-  <img width="657" height="904" alt="image" src="https://github.com/user-attachments/assets/e0a0c63e-816c-4851-a2c3-73c7efdcf388" />
+
 
 
   
