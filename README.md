@@ -93,4 +93,6 @@ Link público para acessar o quadro no Trello:
 
 ## Issues
 
+<img src=https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-09-16%2006-52-55.png />
+
 
