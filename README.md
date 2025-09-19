@@ -85,8 +85,24 @@ Link público para acessar o quadro no Trello:
   
 ## Protótipos Lo-Fi (Figma)
 <img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/69bd13ae-13b6-4571-8dfc-c41628beb377" />
+
+Tela 1 – Página Inicial (Dashboard do Sistema)
+
+Essa tela reúne as principais funcionalidades do sistema Agenda Cultural Recife.
+	•	Na parte superior, há um menu de navegação que permite acessar as seções de Cadastrar Usuário, Cadastrar Evento, Eventos e Meus Favoritos.
+	•	A seção Cadastrar Usuário possibilita que novos usuários se registrem informando nome, e-mail e senha.
+	•	Em Cadastrar Evento, é possível adicionar novos eventos à agenda, preenchendo título, data, local, bairro, preço e descrição.
+	•	A seção Eventos permite filtrar por bairro ou preço máximo e exibe os eventos cadastrados em formato de cards, cada um contendo título, data, bairro, preço e imagem ilustrativa. Em cada card, o usuário pode acessar os detalhes do evento, editar, compartilhar, favoritar ou excluir.
+ 
 <img width="964" height="1600" alt="image" src="https://github.com/user-attachments/assets/4f8d8f2d-b495-4c03-bf20-514a92186616" /> 
 
+Essa tela exibe as informações completas de um evento selecionado.
+	•	Em Detalhes do Evento, o usuário pode visualizar título, descrição, data, local, bairro e preço.
+	•	Abaixo, há a área Editar Evento, onde o formulário já vem preenchido com os dados do evento, permitindo alterar e salvar novamente.
+	•	Em Meus Favoritos, o usuário vê os eventos que marcou como favoritos em formato de card.
+	•	A seção Compartilhar Evento gera um link único para que o usuário copie e envie a outras pessoas.
+	•	Em Excluir Evento, aparece uma mensagem de confirmação, para evitar que o evento seja removido por engano, com as opções Confirmar Exclusão ou Cancelar.
+ 
 ## Trello atualizado
 
 <img width="1513" height="717" alt="image" src="https://github.com/user-attachments/assets/d14ad800-0219-489a-984c-e081330efb50" />
