@@ -83,6 +83,8 @@ Link público para acessar o quadro no Trello:
 
   
 ## Protótipos Lo-Fi (Figma)
+<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/69bd13ae-13b6-4571-8dfc-c41628beb377" />
+<img width="964" height="1600" alt="image" src="https://github.com/user-attachments/assets/4f8d8f2d-b495-4c03-bf20-514a92186616" />
 ## Trello atualizado
 
 ## Próximos Passos
