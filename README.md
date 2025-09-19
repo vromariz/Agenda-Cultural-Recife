@@ -91,10 +91,6 @@ Link público para acessar o quadro no Trello:
 <img width="1513" height="717" alt="image" src="https://github.com/user-attachments/assets/d14ad800-0219-489a-984c-e081330efb50" />
 
 
-## Próximos Passos
+## Issues
 
-- Montar protótipo visual no Figma (Sprint 2)  
-- Implementar CRUD de eventos em Django  
-- Adicionar filtros, compartilhamento e favoritos  
-- Testar e fazer deploy no Azure
 
