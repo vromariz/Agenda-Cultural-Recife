@@ -89,7 +89,7 @@ Link público para acessar o quadro no Trello:
 <img width="964" height="1600" alt="image" src="https://github.com/user-attachments/assets/4f8d8f2d-b495-4c03-bf20-514a92186616" /> 
 
 ## Video sobre o protótipo
-[acesse o video](https://drive.google.com/file/d/1DytrJsouMUwxWAud9qAlJnr4SwYwuKo4/view?usp=sharing)
+[Acesse o video do protótipo](https://drive.google.com/file/d/1DytrJsouMUwxWAud9qAlJnr4SwYwuKo4/view?usp=sharing)
 
 ## Trello atualizado
 
