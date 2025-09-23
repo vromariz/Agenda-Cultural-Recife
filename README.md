@@ -85,10 +85,7 @@ Link público para acessar o quadro no Trello:
   
 ## Protótipos Lo-Fi (Figma)
 
-<img width="900" height="1600" alt="image" src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Untitled.png" />
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/69bd13ae-13b6-4571-8dfc-c41628beb377" />
- 
-<img width="964" height="1600" alt="image" src="https://github.com/user-attachments/assets/4f8d8f2d-b495-4c03-bf20-514a92186616" /> 
+<img width="1200" height="3000" alt="image" src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Untitled.png" />
 
 ## Video sobre o protótipo
 [Acesse o video do protótipo](https://drive.google.com/file/d/1DytrJsouMUwxWAud9qAlJnr4SwYwuKo4/view?usp=sharing)
