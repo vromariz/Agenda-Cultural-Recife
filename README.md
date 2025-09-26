@@ -99,7 +99,8 @@ Link público para acessar o quadro no Trello:
 
 ## Trello atualizado
 
-<img width="1513" height="717" alt="image" src="https://github.com/user-attachments/assets/d14ad800-0219-489a-984c-e081330efb50" />
+<img width="1531" height="808" alt="image" src="https://github.com/user-attachments/assets/29432a66-c1d3-4e9e-b6af-bf538958dabb" />
+
 
 
 ## Issues
