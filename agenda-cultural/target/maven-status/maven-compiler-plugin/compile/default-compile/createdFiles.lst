@@ -1,3 +1,9 @@
-br/recife/agenda/AgendaCulturalApplication.class
-br/recife/agenda/controller/HomeController.class
 br/recife/agenda/App.class
+br/recife/agenda/user/User$UserBuilder.class
+br/recife/agenda/AgendaCulturalApplication.class
+br/recife/agenda/user/dto/UserResponse.class
+br/recife/agenda/user/dto/RegisterRequest.class
+br/recife/agenda/user/UserRepository.class
+br/recife/agenda/controller/HomeController.class
+br/recife/agenda/user/User.class
+br/recife/agenda/user/UserService.class
