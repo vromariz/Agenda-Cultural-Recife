@@ -4,6 +4,7 @@
 /home/vinicius/Área de trabalho/cadeiras /es2/Agenda-Cultural-Recife/agenda-cultural/src/main/java/br/recife/agenda/evento/EventoController.java
 /home/vinicius/Área de trabalho/cadeiras /es2/Agenda-Cultural-Recife/agenda-cultural/src/main/java/br/recife/agenda/evento/EventoRepository.java
 /home/vinicius/Área de trabalho/cadeiras /es2/Agenda-Cultural-Recife/agenda-cultural/src/main/java/br/recife/agenda/evento/EventoService.java
+/home/vinicius/Área de trabalho/cadeiras /es2/Agenda-Cultural-Recife/agenda-cultural/src/main/java/br/recife/agenda/exception/GlobalExceptionHandler.java
 /home/vinicius/Área de trabalho/cadeiras /es2/Agenda-Cultural-Recife/agenda-cultural/src/main/java/br/recife/agenda/user/User.java
 /home/vinicius/Área de trabalho/cadeiras /es2/Agenda-Cultural-Recife/agenda-cultural/src/main/java/br/recife/agenda/user/UserRepository.java
 /home/vinicius/Área de trabalho/cadeiras /es2/Agenda-Cultural-Recife/agenda-cultural/src/main/java/br/recife/agenda/user/UserService.java
