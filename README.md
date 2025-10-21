@@ -32,7 +32,7 @@ Utilizamos *Scrum*, criando Sprints de aproximadamente 2 semanas alinhadas às e
 
 Seguem os prints do quadro com o backlog organizado por prioridade e status:
 
-![Quadro Trello - Backlog completo](https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-09-08%2016-21-45.png)
+![Quadro Trello - Backlog completo](https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2005-12-54.png)
 
 Link público para acessar o quadro no Trello:  
 🔗 [Acesse o Trello do projeto](https://trello.com/b/nGkBsoYm/agenda-cultural-recife)
@@ -42,47 +42,29 @@ Link público para acessar o quadro no Trello:
 - 1 **Cadastrar/Login no sistema**
 - <img width="714" height="771" alt="image" src="https://github.com/user-attachments/assets/95526343-1544-494d-b1ac-6aa19cb4af61" />
 
-  
 - 2 **Cadastrar Evento**]
 - <img width="547" height="719" alt="image" src="https://github.com/user-attachments/assets/0a0516f4-0236-4b9d-8925-0e2deee87753" />
-
- 
-
-
 
 - 3 **Listar Eventos**
 - <img width="853" height="759" alt="image" src="https://github.com/user-attachments/assets/a4458c16-14e1-4924-a619-f877062e1fbb" />
 
-
-
-
-
 - 4 **Visualizar Detalhes do Evento**
 - <img width="531" height="538" alt="image" src="https://github.com/user-attachments/assets/43b3628b-f6f1-4253-9d33-29636598577b" />
-
 
 - 5 **Filtrar Eventos por Bairro**
 - <img width="779" height="769" alt="image" src="https://github.com/user-attachments/assets/2843174e-2398-48c5-9d86-738be6e3ceb2" />
 
-  
-  
-
 - 6 **Filtrar Eventos por Faixa de Preço**
 - <img width="776" height="839" alt="image" src="https://github.com/user-attachments/assets/15d3f51b-91fc-4504-a895-14ec22bad5fb" />
 
- 
 - 7 **Editar Evento**
 - <img width="503" height="747" alt="image" src="https://github.com/user-attachments/assets/09083533-0490-4cce-98ce-1be862b05bd2" />
-
 
 - 8 **Favoritar Evento**
 - <img width="654" height="773" alt="image" src="https://github.com/user-attachments/assets/53433927-784c-4543-839a-a5ae8f5c7313" />
 
-
 - 9 **Compartilhar Evento**
 - <img width="736" height="838" alt="image" src="https://github.com/user-attachments/assets/5a09990f-7f0b-434b-b9b8-9b4ef06a21ec" />
-
-
 
 -  10 **Excluir Evento**
 -  <img width="657" height="904" alt="image" src="https://github.com/user-attachments/assets/e0a0c63e-816c-4851-a2c3-73c7efdcf388" />
@@ -96,7 +78,6 @@ Dificuldade de Sincronização de Agendas: A compatibilidade de horários e a lo
 Comunicação Assíncrona: A falta de momentos síncronos (onde todos estão online ao mesmo tempo) sobrecarregou a comunicação, tornando o alinhamento de ideias e a tomada de decisões ágeis mais lentos e complexos.
 
 Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio manter o objetivo da pair programing.
-
   
 ## Protótipos Lo-Fi (Figma)
 
@@ -105,14 +86,26 @@ Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio 
 ## Video sobre o protótipo
 [Acesse o video do protótipo](https://drive.google.com/file/d/1DytrJsouMUwxWAud9qAlJnr4SwYwuKo4/view?usp=sharing)
 
-## Trello atualizado
-
-<img width="1531" height="808" alt="image" src="https://github.com/user-attachments/assets/29432a66-c1d3-4e9e-b6af-bf538958dabb" />
-
-
-
 ## Issues
 
-<img src=https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-09-16%2006-52-55.png />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-19-13.png" />
 
+## Teste
+-1 adicionar evento
+- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-29-13.png" />
+
+-2 isso nao deveria estar acontecendo precisa ser adicionado exceptions para evitar que isso se repita
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-38-26.png" />
+
+-2 adicionar um usuario 
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-39-36.png"/>
+
+-3 erro ao adicionar credenciais iguais 
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-41-22.png"/>
+
+-4 erro ao adicionar credenciais vazias 
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-42-07.png"/>
+
+-5 o site esta rodando mas por enquanto estamos focando no back 
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-42-51.png"/>
 
