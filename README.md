@@ -86,30 +86,26 @@ Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio 
 ## Video sobre o protótipo
 [Acesse o video do protótipo](https://drive.google.com/file/d/1DytrJsouMUwxWAud9qAlJnr4SwYwuKo4/view?usp=sharing)
 
-## Trello atualizado
-
-<img width="1531" height="808" alt="image" src="https://github.com/user-attachments/assets/29432a66-c1d3-4e9e-b6af-bf538958dabb" />
-
 ## Issues
 
 <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-19-13.png" />
 
 ## Teste
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-29-13.png" />
-adicionar evento
+-1 adicionar evento
+- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-29-13.png" />
 
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-38-26.png" />
-isso nao deveria estar acontecendo precisa ser adicionado exceptions para evitar que isso se repita
+-2 isso nao deveria estar acontecendo precisa ser adicionado exceptions para evitar que isso se repita
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-38-26.png" />
 
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-39-36.png"/>
-adicionar um usuario 
+-2 adicionar um usuario 
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-39-36.png"/>
 
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-41-22.png"/>
-erro ao adicionar credenciais iguais 
+-3 erro ao adicionar credenciais iguais 
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-41-22.png"/>
 
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-42-07.png"/>
-erro ao adicionar credenciais vazias 
+-4 erro ao adicionar credenciais vazias 
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-42-07.png"/>
 
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-42-51.png"/>
-o site esta rodando mas por enquanto estamos focando no back 
+-5 o site esta rodando mas por enquanto estamos focando no back 
+-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-42-51.png"/>
 
