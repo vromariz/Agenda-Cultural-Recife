@@ -6,8 +6,10 @@ br/recife/agenda/user/UserRepository.class
 br/recife/agenda/evento/Evento$EventoBuilder.class
 br/recife/agenda/user/UserService.class
 br/recife/agenda/user/controller/UserController.class
+br/recife/agenda/evento/EventoService.class
 br/recife/agenda/evento/EventoRepository.class
 br/recife/agenda/AgendaCulturalApplication.class
+br/recife/agenda/evento/EventoController.class
 br/recife/agenda/user/dto/RegisterRequest.class
 br/recife/agenda/user/controller/HomeController.class
 br/recife/agenda/user/User.class

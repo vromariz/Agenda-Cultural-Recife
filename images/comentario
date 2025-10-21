@@ -1,1 +1,22 @@
 java -jar target/agenda-cultural-0.0.1-SNAPSHOT.jar
+
+curl -X POST http://localhost:8080/eventos \
+     -H "Content-Type: application/json" \
+     -d '{
+       "nome": "Festival de Música do Recife",
+       "descricao": "Evento com artistas locais",
+       "local": "Marco Zero",
+       "dataEvento": "2025-12-01",
+       "categoria": "Música"
+     }'
+
+curl -X POST http://localhost:8080/users/register \
+-H "Content-Type: application/json" \
+-d '{
+  "name": "Vinicius",
+  "email": "vinicius@email.com",
+  "password": "123456",
+  "confirmPassword": "123456"
+}'
+
+mvn spring-boot:run
