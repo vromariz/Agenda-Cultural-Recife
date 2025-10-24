@@ -3,6 +3,7 @@ br/recife/agenda/user/User$UserBuilder.class
 br/recife/agenda/exception/GlobalExceptionHandler.class
 br/recife/agenda/evento/Evento.class
 br/recife/agenda/user/dto/UserResponse.class
+br/recife/agenda/evento/ErroResponse.class
 br/recife/agenda/user/UserRepository.class
 br/recife/agenda/evento/Evento$EventoBuilder.class
 br/recife/agenda/user/UserService.class
