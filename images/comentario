@@ -20,3 +20,4 @@ curl -X POST http://localhost:8080/users/register \
 }'
 
 mvn spring-boot:run
+GET http://localhost:8080/eventos
