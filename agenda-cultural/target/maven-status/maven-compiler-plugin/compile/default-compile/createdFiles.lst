@@ -1,3 +1,4 @@
+br/recife/agenda/config/WebConfig.class
 br/recife/agenda/App.class
 br/recife/agenda/user/User$UserBuilder.class
 br/recife/agenda/exception/GlobalExceptionHandler.class
