@@ -90,19 +90,26 @@ Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio 
 
 <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2006-02-53.png" />
 
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ProjectIssuesS3.png"/>
+
 ## Teste
-- 1 **adicionar evento**
-- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-29-13.png" />
+- 1.1 **adicionar evento**
+- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ADDnovoRock.png" />
+
+- 1.2 **adicionar um outro evento**
+- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ADDnovoNovo.png" />
 
 - 2 **adicionar um usuario** 
 - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-39-36.png"/>
 
-- 3 **erro ao adicionar credenciais iguais** 
-- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-41-22.png"/>
+- 3 **Tela de Cadastro**
+- - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/telaCadastro.png"/>
 
-- 4 **erro ao adicionar credenciais vazias** 
-- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-42-07.png"/>
+- 4 **Tela de Login**
+- - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/telaLogin.png"/>
 
-- 5 **o site esta rodando mas por enquanto estamos focando no back**
-- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-42-51.png"/>
-
+- 5 **Selects no DB**
+- 5.1 **Select Eventos**
+- - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/selectEventos.png"/>
+- 5.2 **Select User**
+- - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/SelectUsers.png"/>
