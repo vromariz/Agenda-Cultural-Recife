@@ -94,22 +94,19 @@ Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio 
 
 ## Teste
 - 1.1 **adicionar evento**
-- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ADDnovoRock.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ADDnovoRock.png" />
 
 - 1.2 **adicionar um outro evento**
-- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ADDnovoNovo.png" />
-
-- 2 **adicionar um usuario** 
-- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2004-39-36.png"/>
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ADDnovoNovo.png" />
 
 - 3 **Tela de Cadastro**
-- - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/telaCadastro.png"/>
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/telaCadastro.png"/>
 
 - 4 **Tela de Login**
-- - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/telaLogin.png"/>
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/telaLogin.png"/>
 
 - 5 **Selects no DB**
-- 5.1 **Select Eventos**
-- - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/selectEventos.png"/>
-- 5.2 **Select User**
-- - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/SelectUsers.png"/>
+- - 5.1 **Select Eventos**
+- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/selectEventos.png"/>
+- - 5.2 **Select User**
+- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/SelectUsers.png"/>
