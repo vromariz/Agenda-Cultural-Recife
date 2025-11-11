@@ -6,6 +6,7 @@
     <title>Agenda Cultural Recife</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header>
       <h1>Agenda Cultural Recife</h1>
@@ -13,16 +14,17 @@
 
     <main>
       <section id="form-section">
-        <h2>Adicionar Novo Evento</h2>
-        <form id="evento-form">
-          <input type="text" id="nome" placeholder="Nome do evento" required />
-          <input type="text" id="descricao" placeholder="Descrição" required />
-          <input type="text" id="local" placeholder="Local" required />
-          <input type="date" id="data" required />
-          <input type="text" id="categoria" placeholder="Categoria" />
-          <button type="submit">Salvar</button>
-        </form>
-      </section>
+  <h2>Adicionar Novo Evento</h2>
+  <form id="evento-form">
+    <input type="text" id="nome" placeholder="Nome do evento" required />
+    <input type="text" id="descricao" placeholder="Descrição" required />
+    <input type="text" id="local" placeholder="Local" required />
+    <input type="date" id="data" required />
+    <input type="text" id="categoria" placeholder="Categoria" required />
+    <button type="submit">Salvar</button>
+  </form>
+</section>
+
 
       <section id="lista-section">
         <h2>Eventos Cadastrados</h2>
@@ -30,6 +32,10 @@
       </section>
     </main>
 
+    <!-- Importa o Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Importa o script principal -->
     <script src="script.js"></script>
   </body>
 </html>
