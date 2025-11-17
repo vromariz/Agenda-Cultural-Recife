@@ -1,4 +1,4 @@
-# Agenda-Cultural-Recife
+# agenda-cultural-recife
 
 Aplicação web para divulgação de eventos culturais gratuitos ou de baixo custo em Recife e Olinda.  
 Nosso objetivo é aproximar a população da cultura popular e independente, facilitando o acesso a eventos com visibilidade para produtores locais.
