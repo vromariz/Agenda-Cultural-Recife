@@ -110,5 +110,4 @@ Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio 
 - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/selectEventos.png"/>
 - - 5.2 **Select User**
 - <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/SelectUsers.png"/>
-## Guia para contribuir com o projeto 
-https://docs.google.com/document/d/1M0Git9WgJJhhLmYYYWG_fWofwnELuFxvp5xut7qQFGk/edit?usp=sharing 
+
