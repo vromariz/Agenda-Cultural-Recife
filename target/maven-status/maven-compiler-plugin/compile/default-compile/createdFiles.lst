@@ -19,6 +19,7 @@ br\recife\agenda\codigo\repository\EventosRepository.class
 br\recife\agenda\codigo\controller\HomeController.class
 br\recife\agenda\evento\Evento$EventoBuilder.class
 br\recife\agenda\codigo\entity\User$UserBuilder.class
+br\recife\agenda\codigo\entity\User$UserRole.class
 br\recife\agenda\user\User$UserBuilder.class
 br\recife\agenda\codigo\dto\UserResponse.class
 br\recife\agenda\config\WebConfig.class

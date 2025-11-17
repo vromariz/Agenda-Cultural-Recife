@@ -1,8 +1,11 @@
 services:
   - type: web
     name: agenda-cultural-recife
-    dockerfilePath: ./Dockerfile
+    buildCommand: mvn clean package -DskipTests
+    startCommand: java -jar target/agenda-cultural-0.0.1-SNAPSHOT.jar
     envVars:
+      - key: JAVA_VERSION
+        value: 21
       - key: PORT
         sync: false
     plan: free
