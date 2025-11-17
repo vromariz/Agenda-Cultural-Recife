@@ -1,3 +1,5 @@
 package br.recife.agenda.codigo.dto;
 
-public record UserResponse(Long id, String name, String email) {}
+import br.recife.agenda.codigo.entity.User.UserRole;
+
+public record UserResponse(Long id, String name, String email, UserRole role) {}

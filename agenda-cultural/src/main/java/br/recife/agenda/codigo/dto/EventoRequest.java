@@ -19,6 +19,10 @@ public record EventoRequest(
 
         @NotBlank(message = "Categoria é obrigatória")
         String categoria,
+        
+        String bairro,
+        
+        Double preco,
 
         @NotNull(message = "ID do usuário é obrigatório")
         Long usuarioId

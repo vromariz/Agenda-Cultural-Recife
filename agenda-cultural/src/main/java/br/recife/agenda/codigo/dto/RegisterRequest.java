@@ -4,6 +4,8 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
+import br.recife.agenda.codigo.entity.User.UserRole;
+
 public record RegisterRequest(
         @NotBlank(message = "Nome é obrigatório")
         String name,
@@ -12,6 +14,7 @@ public record RegisterRequest(
         @Size(min = 8, message = "Senha deve ter pelo menos 8 caracteres")
         String password,
         @NotBlank(message = "Confirmação de senha é obrigatória")
-        String confirmPassword
+        String confirmPassword,
+        UserRole role
 ) {
 }

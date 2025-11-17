@@ -7,8 +7,8 @@ import br.recife.agenda.codigo.dto.EventoRequest;
 import br.recife.agenda.codigo.dto.EventoResponse;
 import br.recife.agenda.codigo.entity.Eventos;
 import br.recife.agenda.codigo.entity.User;
-import br.recife.agenda.codigo.repository.EventoRepository;
-import br.recife.agenda.codigo.repository.UserRepository;
+import br.recife.agenda.codigo.repository.EventosRepository;
+import br.recife.agenda.codigo.repository.CodigoUserRepository;
 
 import java.util.List;
 
@@ -16,10 +16,10 @@ import java.util.List;
 @Transactional(readOnly = true)
 public class EventoService {
 
-        private final EventoRepository eventoRepo;
-        private final UserRepository userRepo;
+        private final EventosRepository eventoRepo;
+        private final CodigoUserRepository userRepo;
 
-        public EventoService(EventoRepository eventoRepo, UserRepository userRepo) {
+        public EventoService(EventosRepository eventoRepo, CodigoUserRepository userRepo) {
                 this.eventoRepo = eventoRepo;
                 this.userRepo = userRepo;
         }
@@ -36,6 +36,8 @@ public class EventoService {
                 evento.setLocal(req.local());
                 evento.setData(req.data());
                 evento.setCategoria(req.categoria());
+                evento.setBairro(req.bairro());
+                evento.setPreco(req.preco());
                 evento.setUsuario(user);
 
                 evento = eventoRepo.save(evento);
@@ -46,7 +48,9 @@ public class EventoService {
                                 evento.getDescricao(),
                                 evento.getLocal(),
                                 evento.getData(),
-                                evento.getCategoria());
+                                evento.getCategoria(),
+                                evento.getBairro(),
+                                evento.getPreco());
         }
 
         // Lista todos os eventos de um usuário
@@ -63,7 +67,9 @@ public class EventoService {
                     e.getDescricao(),
                     e.getLocal(),
                     e.getData(),
-                    e.getCategoria()
+                    e.getCategoria(),
+                    e.getBairro(),
+                    e.getPreco()
                 ))
                 .toList();
         }
@@ -76,7 +82,73 @@ public class EventoService {
                                                 e.getDescricao(),
                                                 e.getLocal(),
                                                 e.getData(),
-                                                e.getCategoria()))
+                                                e.getCategoria(),
+                                                e.getBairro(),
+                                                e.getPreco()))
+                                .toList();
+        }
+        
+        public java.util.Optional<EventoResponse> buscarPorId(Long id) {
+                return eventoRepo.findById(id)
+                                .map(e -> new EventoResponse(
+                                                e.getId(),
+                                                e.getNome(),
+                                                e.getDescricao(),
+                                                e.getLocal(),
+                                                e.getData(),
+                                                e.getCategoria(),
+                                                e.getBairro(),
+                                                e.getPreco()));
+        }
+        
+        @Transactional
+        public EventoResponse atualizar(Long id, EventoRequest req) {
+                Eventos evento = eventoRepo.findById(id)
+                                .orElseThrow(() -> new RuntimeException("Evento não encontrado"));
+                
+                evento.setNome(req.nome());
+                evento.setDescricao(req.descricao());
+                evento.setLocal(req.local());
+                evento.setData(req.data());
+                evento.setCategoria(req.categoria());
+                evento.setBairro(req.bairro());
+                evento.setPreco(req.preco());
+                
+                evento = eventoRepo.save(evento);
+                
+                return new EventoResponse(
+                                evento.getId(),
+                                evento.getNome(),
+                                evento.getDescricao(),
+                                evento.getLocal(),
+                                evento.getData(),
+                                evento.getCategoria(),
+                                evento.getBairro(),
+                                evento.getPreco());
+        }
+        
+        @Transactional
+        public void excluir(Long id) {
+                if (!eventoRepo.existsById(id)) {
+                        throw new RuntimeException("Evento não encontrado");
+                }
+                eventoRepo.deleteById(id);
+        }
+        
+        public List<EventoResponse> buscarPorBairroEPreco(String bairro, Double precoMaximo) {
+                return eventoRepo.findAll().stream()
+                                .filter(e -> (bairro == null || bairro.isBlank() || 
+                                             (e.getBairro() != null && e.getBairro().equalsIgnoreCase(bairro)))
+                                && (precoMaximo == null || e.getPreco() == null || e.getPreco() <= precoMaximo))
+                                .map(e -> new EventoResponse(
+                                                e.getId(),
+                                                e.getNome(),
+                                                e.getDescricao(),
+                                                e.getLocal(),
+                                                e.getData(),
+                                                e.getCategoria(),
+                                                e.getBairro(),
+                                                e.getPreco()))
                                 .toList();
         }
 }

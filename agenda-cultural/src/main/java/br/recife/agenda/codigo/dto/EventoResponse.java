@@ -8,5 +8,7 @@ public record EventoResponse(
         String descricao,
         String local,
         LocalDate data,
-        String categoria
+        String categoria,
+        String bairro,
+        Double preco
 ) {}

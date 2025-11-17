@@ -37,4 +37,39 @@ public class EventController {
         List<EventoResponse> eventos = service.listarTodos();
         return ResponseEntity.ok(eventos);
     }
+    
+    @GetMapping("/{id}")
+    public ResponseEntity<EventoResponse> buscarPorId(@PathVariable Long id) {
+        return service.buscarPorId(id)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
+    }
+    
+    @PutMapping("/{id}")
+    public ResponseEntity<EventoResponse> atualizar(@PathVariable Long id, @RequestBody EventoRequest request) {
+        try {
+            EventoResponse response = service.atualizar(id, request);
+            return ResponseEntity.ok(response);
+        } catch (RuntimeException e) {
+            return ResponseEntity.notFound().build();
+        }
+    }
+    
+    @DeleteMapping("/{id}")
+    public ResponseEntity<Void> excluir(@PathVariable Long id) {
+        try {
+            service.excluir(id);
+            return ResponseEntity.noContent().build();
+        } catch (RuntimeException e) {
+            return ResponseEntity.notFound().build();
+        }
+    }
+    
+    @GetMapping("/buscar")
+    public ResponseEntity<List<EventoResponse>> buscar(
+            @RequestParam(required = false) String bairro,
+            @RequestParam(required = false) Double precoMaximo) {
+        List<EventoResponse> eventos = service.buscarPorBairroEPreco(bairro, precoMaximo);
+        return ResponseEntity.ok(eventos);
+    }
 }

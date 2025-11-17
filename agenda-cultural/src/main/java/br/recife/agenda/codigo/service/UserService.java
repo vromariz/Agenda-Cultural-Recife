@@ -9,14 +9,14 @@ import br.recife.agenda.codigo.dto.LoginRequest;
 import br.recife.agenda.codigo.dto.RegisterRequest;
 import br.recife.agenda.codigo.dto.UserResponse;
 import br.recife.agenda.codigo.entity.User;
-import br.recife.agenda.codigo.repository.UserRepository;
+import br.recife.agenda.codigo.repository.CodigoUserRepository;
 
 @Service
 @Transactional
 public class UserService {
-    private final UserRepository repo;
+    private final CodigoUserRepository repo;
 
-    public UserService(UserRepository repo) {
+    public UserService(CodigoUserRepository repo) {
         this.repo = repo;
     }
 
@@ -32,9 +32,10 @@ public class UserService {
                 .name(req.name())
                 .email(req.email())
                 .passwordHash(hash)
+                .role(req.role() != null ? req.role() : User.UserRole.COMUM)
                 .build();
         user = repo.save(user);
-        return new UserResponse(user.getId(), user.getName(), user.getEmail());
+        return new UserResponse(user.getId(), user.getName(), user.getEmail(), user.getRole());
     }
 
     @Transactional(readOnly = true)
@@ -50,7 +51,7 @@ public class UserService {
         throw new RuntimeException("Senha incorreta");
     }
 
-    return new UserResponse(user.getId(), user.getName(), user.getEmail());
+    return new UserResponse(user.getId(), user.getName(), user.getEmail(), user.getRole());
 }
 
 }

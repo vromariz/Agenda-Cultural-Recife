@@ -5,7 +5,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
 
-@Entity
+@Entity(name = "UserLegacy")
 @Table(name = "users", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
 public class User {

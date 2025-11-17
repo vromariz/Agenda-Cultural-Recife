@@ -20,4 +20,13 @@ public class User {
 
     @NotBlank(message = "Senha é obrigatória")
     private String passwordHash;
+    
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    @Builder.Default
+    private UserRole role = UserRole.COMUM;
+    
+    public enum UserRole {
+        COMUM, ADMIN
+    }
 }

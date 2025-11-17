@@ -1,41 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda Cultural Recife</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-
-  <body>
-    <header>
-      <h1>Agenda Cultural Recife</h1>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <h1>Agenda Cultural Recife</h1>
+        <p class="subtitle">Descubra eventos gratuitos ou de baixo custo em Recife e Olinda</p>
     </header>
 
-    <main>
-      <section id="form-section">
-  <h2>Adicionar Novo Evento</h2>
-  <form id="evento-form">
-    <input type="text" id="nome" placeholder="Nome do evento" required />
-    <input type="text" id="descricao" placeholder="Descrição" required />
-    <input type="text" id="local" placeholder="Local" required />
-    <input type="date" id="data" required />
-    <input type="text" id="categoria" placeholder="Categoria" required />
-    <button type="submit">Salvar</button>
-  </form>
-</section>
+    <!-- Navigation -->
+    <nav class="nav-bar">
+        <div id="nav-logged-out">
+            <a href="#" onclick="showSection('cadastrar-usuario')">Cadastrar Usuário</a>
+            <a href="#" onclick="showSection('login')">Login</a>
+            <a href="#" onclick="showSection('eventos')">Eventos</a>
+        </div>
+        <div id="nav-logged-in" style="display: none;">
+            <a href="#" onclick="showSection('eventos')">Eventos</a>
+            <a href="#" id="nav-cadastrar-evento" onclick="showSection('cadastrar-evento')" style="display: none;">Cadastrar Evento</a>
+            <a href="#" onclick="showSection('favoritos')">Meus Favoritos</a>
+            <a href="#" onclick="showSection('acessibilidade')">Acessibilidade</a>
+            <a href="#" onclick="logout()">Sair</a>
+        </div>
+    </nav>
 
+    <!-- Main Content -->
+    <main class="content-area">
+        <!-- Login Section -->
+        <section id="login" class="content-section" style="display: none;">
+            <h2>Login</h2>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="E-mail" required>
+                <input type="password" id="login-password" placeholder="Senha" required>
+                <button type="submit" class="btn-primary">Entrar</button>
+            </form>
+            <p style="margin-top: 15px;">
+                Não tem uma conta? <a href="#" onclick="showSection('cadastrar-usuario')" class="btn-link">Cadastre-se</a>
+            </p>
+        </section>
 
-      <section id="lista-section">
-        <h2>Eventos Cadastrados</h2>
-        <ul id="lista-eventos"></ul>
-      </section>
+        <!-- Cadastrar Usuário Section -->
+        <section id="cadastrar-usuario" class="content-section" style="display: none;">
+            <h2>Cadastrar Usuário</h2>
+            <form id="register-form">
+                <input type="text" id="register-name" placeholder="Nome completo" required>
+                <input type="email" id="register-email" placeholder="E-mail" required>
+                <input type="password" id="register-password" placeholder="Senha" required>
+                <input type="password" id="register-confirm-password" placeholder="Confirmar Senha" required>
+                <select id="register-role">
+                    <option value="COMUM">Usuário Comum</option>
+                    <option value="ADMIN">Administrador</option>
+                </select>
+                <button type="submit" class="btn-primary">Cadastrar</button>
+            </form>
+        </section>
+
+        <!-- Cadastrar Evento Section (Apenas Admin) -->
+        <section id="cadastrar-evento" class="content-section" style="display: none;">
+            <h2>Cadastrar Evento</h2>
+            <form id="event-form">
+                <input type="text" id="event-nome" placeholder="Título do Evento" required>
+                <input type="date" id="event-data" required>
+                <input type="text" id="event-local" placeholder="Local" required>
+                <input type="text" id="event-bairro" placeholder="Bairro" required>
+                <input type="number" id="event-preco" placeholder="Preço (R$)" step="0.01" min="0">
+                <textarea id="event-descricao" placeholder="Descrição" required></textarea>
+                <input type="text" id="event-categoria" placeholder="Categoria" required>
+                <button type="submit" class="btn-primary">Salvar Evento</button>
+            </form>
+        </section>
+
+        <!-- Eventos Section -->
+        <section id="eventos" class="content-section" style="display: none;">
+            <h2>Eventos</h2>
+            
+            <!-- Filtros -->
+            <div class="filters">
+                <input type="text" id="filter-bairro" placeholder="Filtrar por Bairro">
+                <input type="number" id="filter-preco" placeholder="Preço máximo (R$)" step="0.01" min="0">
+                <button onclick="aplicarFiltros()" class="btn-primary">Aplicar Filtros</button>
+            </div>
+
+            <!-- Cards de Eventos -->
+            <div id="eventos-container" class="eventos-grid">
+                <!-- Eventos serão carregados aqui -->
+            </div>
+        </section>
+
+        <!-- Detalhes do Evento -->
+        <section id="detalhes-evento" class="content-section" style="display: none;">
+            <h2>Detalhes do Evento</h2>
+            <div id="detalhes-content"></div>
+            <a href="#" onclick="showSection('eventos')" class="btn-link">Voltar</a>
+        </section>
+
+        <!-- Editar Evento -->
+        <section id="editar-evento" class="content-section" style="display: none;">
+            <h2>Editar Evento</h2>
+            <form id="edit-event-form">
+                <input type="hidden" id="edit-event-id">
+                <input type="text" id="edit-event-nome" placeholder="Título do Evento" required>
+                <input type="date" id="edit-event-data" required>
+                <input type="text" id="edit-event-local" placeholder="Local" required>
+                <input type="text" id="edit-event-bairro" placeholder="Bairro" required>
+                <input type="number" id="edit-event-preco" placeholder="Preço (R$)" step="0.01" min="0">
+                <textarea id="edit-event-descricao" placeholder="Descrição" required></textarea>
+                <input type="text" id="edit-event-categoria" placeholder="Categoria" required>
+                <button type="submit" class="btn-primary">Salvar Alterações</button>
+            </form>
+        </section>
+
+        <!-- Meus Favoritos -->
+        <section id="favoritos" class="content-section" style="display: none;">
+            <h2>Meus Favoritos</h2>
+            <div id="favoritos-container" class="eventos-grid">
+                <!-- Favoritos serão carregados aqui -->
+            </div>
+        </section>
+
+        <!-- Compartilhar Evento -->
+        <section id="compartilhar-evento" class="content-section" style="display: none;">
+            <h2>Compartilhar Evento</h2>
+            <p>Copie este link para compartilhar:</p>
+            <div class="share-link-container">
+                <input type="text" id="share-link" readonly>
+                <button onclick="copiarLink()" class="btn-primary">Copiar</button>
+            </div>
+        </section>
+
+        <!-- Excluir Evento -->
+        <section id="excluir-evento" class="content-section" style="display: none;">
+            <h2>Excluir Evento</h2>
+            <p id="excluir-mensagem">Deseja realmente excluir o evento?</p>
+            <div class="delete-buttons">
+                <button onclick="confirmarExclusao()" class="btn-danger">Confirmar Exclusão</button>
+                <a href="#" onclick="showSection('eventos')" class="btn-link">Cancelar</a>
+            </div>
+        </section>
+
+        <!-- Acessibilidade -->
+        <section id="acessibilidade" class="content-section" style="display: none;">
+            <h2>Acessibilidade</h2>
+            <form id="accessibility-form">
+                <label>
+                    <input type="range" id="font-size" min="12" max="24" value="16" oninput="aplicarTamanhoFonte(this.value)">
+                    Aumentar a letra
+                </label>
+                <label>
+                    <input type="checkbox" id="high-contrast" onchange="aplicarContraste(this.checked)">
+                    Aumentar o contraste
+                </label>
+                <button type="button" onclick="salvarAcessibilidade()" class="btn-primary">Salvar Alterações</button>
+            </form>
+        </section>
     </main>
 
-    <!-- Importa o Axios -->
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
-    <!-- Importa o script principal -->
     <script src="script.js"></script>
-  </body>
+</body>
 </html>

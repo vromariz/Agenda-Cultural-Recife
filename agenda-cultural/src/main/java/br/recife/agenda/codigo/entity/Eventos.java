@@ -32,6 +32,11 @@ public class Eventos {
 
     @NotBlank(message = "Categoria é obrigatória")
     private String categoria;
+    
+    private String bairro;
+    
+    @Column(name = "preco")
+    private Double preco;
 
     // 🧠 Relacionamento com o usuário
     @ManyToOne
