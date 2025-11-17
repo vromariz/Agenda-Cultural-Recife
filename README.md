@@ -92,21 +92,34 @@ Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio 
 
 <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ProjectIssuesS3.png"/>
 
-## Teste
-- 1.1 **adicionar evento**
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ADDnovoRock.png" />
+## Teste - Fluxo do Administrador
 
-- 1.2 **adicionar um outro evento**
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ADDnovoNovo.png" />
+### 1. Criação da Conta de Admin
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%201.png" />
 
-- 3 **Tela de Cadastro**
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/telaCadastro.png"/>
+### 2. Cadastrando Evento
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%202.png" />
 
-- 4 **Tela de Login**
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/telaLogin.png"/>
+### 3. Visualização dos Eventos Criados
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%203.png" />
 
-- 5 **Selects no DB**
-- - 5.1 **Select Eventos**
-- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/selectEventos.png"/>
-- - 5.2 **Select User**
-- <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/SelectUsers.png"/>
+### 4. Editar Evento - Tela de Edição
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%204.png" />
+
+### 5. Editar Evento - Alteração de Preço (R$ 50 para R$ 75)
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%205.png" />
+
+### 6. Adicionar Outro Evento
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%206.png" />
+
+### 7. Excluir Evento - Confirmação
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%207.png" />
+
+### 8. Excluir Evento - Evento Removido
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%208.png" />
+
+### 9. Eventos Criados no Banco de Dados
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%209.png" />
+
+### 10. Usuário Admin Criado no Banco de Dados
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2010.png" />
