@@ -161,3 +161,8 @@ Apesar dessas dificuldades, ainda assim foram realizadas entregas relevantes.
 ### . Screencast da execução do Código
 
 https://youtu.be/6JgaobjdbQM
+
+### Trello atualizado 
+
+<img width="1016" height="475" alt="image" src="https://github.com/user-attachments/assets/7f91b6a0-5ec6-4bb3-b5f7-e579bf9e4a8f" />
+
