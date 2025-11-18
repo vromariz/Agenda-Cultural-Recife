@@ -73,6 +73,9 @@ Link público para acessar o quadro no Trello:
 
 Relato: 
 Durante a Sprint 2 e 3 nós conseguimos trabalhar em pair programming. Foi um momento importante porque trocamos informações em tempo real e desenvolvemos juntos no mesmo código, o que facilitou o alinhamento das ideias e fortaleceu nossa colaboração. Apesar das dificuldades de agenda e comunicação que tivemos ao longo do projeto, essa experiência trouxe ganhos claros para o desenvolvimento, onde conseguimos evoluir sozinhos com grande parte do projeto. -Duda e Vini 
+
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/9056f3b8-2159-4062-b9d2-49ae22bda01e" />
+
   
 ## Protótipos Lo-Fi (Figma)
 
