@@ -32,7 +32,8 @@ Utilizamos *Scrum*, criando Sprints de aproximadamente 2 semanas alinhadas às e
 
 Seguem os prints do quadro com o backlog organizado por prioridade e status:
 
-![Quadro Trello - Backlog completo](https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2005-12-54.png)
+![Quadro Trello - Backlog completo](<img width="899" height="496" alt="Captura de tela de 2025-11-18 11-30-40" src="https://github.com/user-attachments/assets/6ea6e9c5-f7af-4c0c-b055-dec4007fd71b" />
+)
 
 Link público para acessar o quadro no Trello:  
 🔗 [Acesse o Trello do projeto](https://trello.com/b/nGkBsoYm/agenda-cultural-recife)
