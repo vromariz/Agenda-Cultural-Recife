@@ -158,5 +158,6 @@ Durante as Sprints 2 e 3 do projeto Agenda Cultural Recife, foi possível avanç
 No entanto, é importante registrar, de forma respeitosa e objetiva, que o desempenho coletivo do grupo ficou bastante abaixo do esperado. Houve baixo engajamento por parte de alguns dos integrantes, pouca comunicação e grande dependência de poucos membros para que as tarefas fossem concluídas. Grande parte das atividades foi deixada para a última hora, o que prejudicou o ritmo natural da sprint, dificultou revisões e limitou a qualidade de algumas entregas. Observou-se também ausência e falta de acompanhamento adequado das atividades no Trello, o que contribuiu para acúmulo de demandas e execução apressada.
 Apesar dessas dificuldades, ainda assim foram realizadas entregas relevantes.
 
+### . Screencast da execução do Código
 
 https://youtu.be/6JgaobjdbQM
