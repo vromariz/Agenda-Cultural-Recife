@@ -71,7 +71,7 @@ Link público para acessar o quadro no Trello:
 
 ## Pair Programing
 
-Durante a fase de execução enfrentamos dificuldades de sincronização de agendas, comunicação assíncrona e coordenação de esforços, o que limitou a prática regular de pair programming. Ainda assim, Duda e Vini conseguiram realizar sessões de programação em pares na Sprint 3, trocando informações em tempo real e trabalhando juntos no mesmo código, o que trouxe ganhos de colaboração e alinhamento técnico.
+Durante a fase de execução enfrentamos dificuldades de sincronização de agendas, comunicação assíncrona e coordenação de esforços, o que limitou a prática regular de pair programming. Ainda assim, Duda e Vini conseguiram realizar sessões de programação em pares na Sprint 2 e 3, trocando informações em tempo real e trabalhando juntos no mesmo código, o que trouxe ganhos de colaboração e alinhamento técnico.
   
 ## Protótipos Lo-Fi (Figma)
 
