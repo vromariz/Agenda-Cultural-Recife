@@ -47,7 +47,6 @@ http://localhost:3000
 
 ## 🧱 5. Estrutura básica do projeto
 
-A organização pode variar, mas normalmente segue esta lógica:
 
 ```
 Agenda-Cultural-Recife/
