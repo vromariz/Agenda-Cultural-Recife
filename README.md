@@ -157,3 +157,6 @@ Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio 
 Durante as Sprints 2 e 3 do projeto Agenda Cultural Recife, foi possível avançar em diversas partes essenciais do desenvolvimento, apesar de desafios significativos relacionados ao funcionamento da equipe. As sprints tinham como objetivos a implementação das principais funcionalidades do sistema, e início da integração entre front-end e back-end, e conclusão de algumas finalidades do projeto.
 No entanto, é importante registrar, de forma respeitosa e objetiva, que o desempenho coletivo do grupo ficou bastante abaixo do esperado. Houve baixo engajamento por parte de alguns dos integrantes, pouca comunicação e grande dependência de poucos membros para que as tarefas fossem concluídas. Grande parte das atividades foi deixada para a última hora, o que prejudicou o ritmo natural da sprint, dificultou revisões e limitou a qualidade de algumas entregas. Observou-se também ausência e falta de acompanhamento adequado das atividades no Trello, o que contribuiu para acúmulo de demandas e execução apressada.
 Apesar dessas dificuldades, ainda assim foram realizadas entregas relevantes.
+
+
+https://youtu.be/6JgaobjdbQM
