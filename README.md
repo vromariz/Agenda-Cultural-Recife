@@ -84,7 +84,10 @@ Durante a fase de execução enfrentamos dificuldades de sincronização de agen
 
 <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/Captura%20de%20tela%20de%202025-10-21%2006-02-53.png" />
 
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ProjectIssuesS3.png"/>
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/ProjectIssuesS3.png"/> 
+
+<img width="1166" height="226" alt="image" src="https://github.com/user-attachments/assets/5c5a5654-f0a1-43a5-b1a2-194a319ddaf6" />
+
 
 ## Teste - Fluxo do Administrador
 
@@ -156,7 +159,5 @@ Apesar dessas dificuldades, ainda assim foram realizadas entregas relevantes.
 
 https://youtu.be/6JgaobjdbQM
 
-### Trello atualizado 
 
-<img width="1016" height="475" alt="image" src="https://github.com/user-attachments/assets/7f91b6a0-5ec6-4bb3-b5f7-e579bf9e4a8f" />
 
