@@ -123,3 +123,32 @@ Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio 
 
 ### 10. Usuário Admin Criado no Banco de Dados
 <img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2010.png" />
+
+## Teste - Fluxo do Usuário Comum
+
+### 1. Criação de Conta de Usuário Comum
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2011.png" />
+
+### 2. Login na Conta
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2012.png" />
+
+### 3. Detalhes do Evento
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2013.png" />
+
+### 4. Compartilhar Evento
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2014.png" />
+
+### 5. Favoritar Eventos
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2015.png" />
+
+### 6. Acessibilidade
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2016.png" />
+
+### 7. Logout da Conta
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2017.png" />
+
+### 8. Eventos Existentes
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2018.png" />
+
+### 9. Usuários Existentes
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2019.png" />
