@@ -127,28 +127,28 @@ Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio 
 ## Teste - Fluxo do Usuário Comum
 
 ### 1. Criação de Conta de Usuário Comum
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2011.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2011.jpg" />
 
 ### 2. Login na Conta
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2012.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2012.jpg" />
 
 ### 3. Detalhes do Evento
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2013.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2013.jpg" />
 
 ### 4. Compartilhar Evento
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2014.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2014.jpg" />
 
 ### 5. Favoritar Eventos
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2015.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2015.jpg" />
 
 ### 6. Acessibilidade
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2016.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2016.jpg" />
 
 ### 7. Logout da Conta
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2017.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2017.jpg" />
 
 ### 8. Eventos Existentes
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2018.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2018.jpg" />
 
 ### 9. Usuários Existentes
-<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2019.png" />
+<img src="https://github.com/vromariz/Agenda-Cultural-Recife/blob/main/images/anexo%2019.jpg" />
