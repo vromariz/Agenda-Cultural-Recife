@@ -70,14 +70,8 @@ Link público para acessar o quadro no Trello:
 -  <img width="657" height="904" alt="image" src="https://github.com/user-attachments/assets/e0a0c63e-816c-4851-a2c3-73c7efdcf388" />
 
 ## Pair Programing
-Desafios Enfrentados
-Durante a fase de execução, encontramos desafios significativos que impediram a implementação eficaz da programação em pares conforme o planejado:
 
-Dificuldade de Sincronização de Agendas: A compatibilidade de horários e a localizaçao dos membros do grupo mostrou-se um obstáculo considerável, impossibilitando sessões regulares e produtivas de trabalho simultâneo.
-
-Comunicação Assíncrona: A falta de momentos síncronos (onde todos estão online ao mesmo tempo) sobrecarregou a comunicação, tornando o alinhamento de ideias e a tomada de decisões ágeis mais lentos e complexos.
-
-Coordenacao de Esforcos: Sem a rotina do pair programming, tornou-se um desafio manter o objetivo da pair programing.
+Durante a fase de execução enfrentamos dificuldades de sincronização de agendas, comunicação assíncrona e coordenação de esforços, o que limitou a prática regular de pair programming. Ainda assim, Duda e Vini conseguiram realizar sessões de programação em pares na Sprint 3, trocando informações em tempo real e trabalhando juntos no mesmo código, o que trouxe ganhos de colaboração e alinhamento técnico.
   
 ## Protótipos Lo-Fi (Figma)
 
